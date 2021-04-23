@@ -1,0 +1,201 @@
+body {
+  background-color: rgb(253, 251, 251);
+  margin: 0;
+  font-family: Epilogue, sans-serif;
+  font-size: 21px;
+  letter-spacing: 0.2mm;
+  color: rgb(94, 86, 86);
+}
+
+h2 {
+  text-align: center;
+  font-size: 45px;
+  margin: 120px 0 100px;
+  color: rgb(3, 109, 85);
+}
+
+h3 {
+  text-align: center;
+  font-size: 35px;
+  color: rgb(3, 109, 85);
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0%;
+  background-color: rgb(3, 109, 85);
+  color: white;
+  width: 100%;
+}
+
+#titulo {
+  text-align: center;
+  font-size: 60px;
+  font-style: italic;
+  margin: 25px 0 0 290px;
+  display: inline-block;
+}
+
+#minha_foto {
+  margin: auto;
+  width: 200px;
+  border-radius: 50%;
+  height: 200px;
+  object-fit: cover;
+  border: solid 3px rgb(165, 163, 163);
+  transition-property: border-color;
+  transition-duration: 1s;
+}
+
+#minha_foto:hover {
+  border-color: rgb(3, 109, 85);
+}
+
+.trybe {
+  margin-left: 50px;
+}
+
+.foto {
+  width: 100%;
+  text-align: center;
+  margin-top: 250px;
+}
+
+.foto p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.foto a {
+  text-decoration: none;
+  transition-property: color;
+  transition-duration: 1s;
+  display: inline-block;
+}
+
+.nav-bar {
+  text-align: center;
+}
+
+.nav-bar ul {
+  list-style: none;
+}
+
+.nav-bar li {
+  display: inline-block;
+  padding-left: 50px;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: white;
+  transition-property: color;
+  transition-duration: 1s;
+}
+
+.foto a:visited {
+  color: rgb(94, 86, 86);
+}
+
+.foto a:hover {
+  color: rgb(3, 109, 85);
+}
+
+.nav-bar a:hover {
+  color: rgb(165, 163, 163);
+}
+
+.licoes ul , ol {
+  width: 100%;
+}
+
+.licoes li {
+  font-size: 30px;
+  line-height: 2;
+  list-style: none;
+  color: white;
+  padding: 50px;
+  width: 80%;
+  margin: auto;
+}
+
+.licoes li:nth-child( odd ) {
+  background-color: rgb(3, 109, 85);
+}
+
+.licoes li:nth-child( even ) {
+  background-color: rgb(8, 194, 150);
+}
+
+#sobre {
+  margin: 200px 0;
+  min-height: 550px;
+}
+
+.lado-esquerdo {
+  background-color: rgb(165, 163, 163);
+  width: 70%;
+  padding: 15px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.lado-esquerdo h2 {
+  margin: 0;
+}
+
+.lado-esquerdo p {
+  color: rgb(3, 109, 85);
+  line-height: 2;
+  vertical-align: top;
+}
+
+.lado-direito {
+  margin-top: 40px;
+  width: 26%;
+  float: right;
+  line-height: 1.5;
+}
+
+.lado-direito em {
+  padding: 10px;
+}
+
+
+#table {
+  clear: both;
+}
+
+.tabela th {
+  background-color: rgb(3, 109, 85);
+  color: white;
+  width: 25%;
+  padding: 10px;
+}
+
+.tabela td {
+  padding: 20px;
+  color: rgb(65, 61, 61);
+}
+
+.tabela td:nth-child( odd ) {
+  background-color: rgb(165, 163, 163);
+}
+
+.tabela td:nth-child( even ) {
+  background-color: rgb(228, 214, 214);
+}
+
+#rodape {
+  background-color: rgb(3, 109, 85);
+  color: white;
+  padding: 20px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+@font-face {
+  font-family: Epilogue;
+  src: url('./fonts/Epilogue-VariableFont_wght.ttf');
+}
