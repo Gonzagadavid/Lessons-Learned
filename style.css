@@ -20,6 +20,10 @@ h3 {
   color: rgb(3, 109, 85);
 }
 
+a {
+  color: rgb(94, 86, 86);
+}
+
 #cabecalho {
   position: fixed;
   top: 0%;
