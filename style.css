@@ -20,10 +20,6 @@ h3 {
   color: rgb(3, 109, 85);
 }
 
-a {
-  color: rgb(94, 86, 86);
-}
-
 #cabecalho {
   position: fixed;
   top: 0%;
@@ -71,6 +67,7 @@ a {
 }
 
 .foto a {
+  color: rgb(94, 86, 86);
   text-decoration: none;
   transition-property: color;
   transition-duration: 1s;
