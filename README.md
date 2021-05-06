@@ -2,7 +2,7 @@
 
 
 
-## Primeiro projeto de avaliação proposto durante o curso da trybe, após ser abordado conteúdos fundamentais sobre html e css. Nesse projeto foi submetido a testes 15 requisitos:
+## Primeiro projeto de avaliação proposto durante o curso da trybe, após ser abordado conteúdos fundamentais sobre html e css. Esse projeto foi submetido a testes  de 15 requisitos:
 
 
 
